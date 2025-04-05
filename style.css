@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.beeja-logo{
+    width: 180px;
+    margin-left: 120px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+.navbar-links button{
+    background-color: rgb(66, 80, 183);
+    background-image: linear-gradient(to right, rgb(59, 61, 190) , rgb(132, 65, 204));
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-image: linear-gradient(to right, rgb(59, 61, 190) , rgb(47, 49, 171));
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.About-us-container{
+    display: flex;
+    padding: 130px;
+    gap: 150px;
+}
+.about-us-image{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.about-us-text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.about-us-title {
+    margin-bottom: 50px;
+    font-weight:900;
+    font-size: 30px;
+}
+.about-image img{
+    width: 400px;
+}
+
+.about-us-mode{
+    display:flex;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.about-us-content{
+    line-height: 25px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.option-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-image: linear-gradient(to right, rgb(59, 61, 190) , rgb(10, 10, 46));
+    color: white;
+}
+
+
+.option-title{
+    font-size: 29px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.option-content{
+    width: 950px;
+    text-align:center;
+    font-size: 19px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.Vision{
+    height: 50vh;
+}
+.client-container{
+    background-image: linear-gradient(to right, rgb(59, 61, 190) , rgb(10, 10, 46));
+    padding: 50px 250px;
+}
+
+.client-container-data{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 70px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-title{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.client-content{
+    display: flex;
+    padding: 0 100px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mail-container{
+    border: dotted black 2px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+
+}
+
+.Vision-Mission-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Vision-container, .Mission-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    border: solid rgb(56, 199, 255) 1px;
+    margin: 80px;
+    border-radius: 5px;
+}
+
+.Vision-Mission-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.Vision-Mission-content{
+    padding: 20px 0;
+}
